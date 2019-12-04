@@ -40,11 +40,17 @@ Prior knowledge of the following concepts were used:
 
 5. With the Pi fully loaded, place components on the base starting with assembling the Motors, Mounting Hubs and Wheels, which go underneath the base, connecting the IMU, H Bridge and Pi to the breadboard, which will go on the top platform, and putting the Pi on the lower platform.<br/>
 <p align="center">
-  Under
+  <img width="460" height="300" src="">
+  Under the Bottom Platform
 </p>
-| Under the Bottom Platform  | On top of the Bottom Platform | On top of the Top Platform |
-| :---         |     :---:      |          ---: |
-| Content Cell  | Content Cell  | Content Cell  |
+<p align="center">
+  <img width="460" height="300" src="">
+  On top of the Bottom Platform
+</p>
+<p align="center">
+  <img width="460" height="300" src="">
+  On top of the Top Platform
+</p>
 
 6. Connect power to the Pi with the cord that comes with it and power to the breadboard with the 9V power cord, stepped down to 6V using resistors and a [voltage divider](https://learn.sparkfun.com/tutorials/voltage-dividers/all).
 
