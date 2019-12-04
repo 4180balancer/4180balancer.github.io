@@ -1,30 +1,32 @@
 # Welcome to the 4180Balancer Project!
 `Created by John Lee, Nyle Malik, and Austin Lowe`
 
-Below you can find a description of a balancing robot designed for ECE 4180 at Georgia Tech.
+Below is a description of a balancing robot designed for ECE 4180 at Georgia Tech.
 Use the following sections to view or recreate our project.
 
 ## Project Idea
 
-This project was inspired by Mark William's [Success with a Balancing Robot using a Raspberry Pi](http://ozzmaker.com/success-with-a-balancing-robot-using-a-raspberry-pi/) with major changes in parts used, complexity of design, and how the motors are driven. The general idea was to design a mobile robot with a tall base that will adjust its wheel speeds to stay upright. Our design incorporated learnings and parts from previous labs within 4180 itself, such as the use of a dual H bridge motor driver, IMU, and a Raspberry Pi, as well as new concepts developed in Mark William's project, including work with a PID controller and encoders. The combination of effort led to what we call the 4180Balancer.
+**Image of Bot*
 
-**Video**
+The general idea of this project was to design a mobile robot with a tall base that adjusts its wheel speeds to stay upright. With major changes in parts used, complexity of design, and how the motors are driven, it was inspired by Mark William's [Success with a Balancing Robot using a Raspberry Pi](http://ozzmaker.com/success-with-a-balancing-robot-using-a-raspberry-pi/). Our design incorporated learnings and parts from previous labs within 4180 itself, such as the use of a dual H bridge motor driver, IMU, and a Raspberry Pi, as well as new concepts developed in Mark William's project, including work with a PID controller and encoders. The combination of efforts led to what we call the **4180Balancer**.
+
+**Video Demo**
 
 ## Instructions
 
-Prior knowledge of the following concepts was used:
+Prior knowledge of the following concepts were used:
 - Controls
 - C++
 - Raspberry Pi
 
 1. To begin, acquire the following components and materials:
-- [IMU]()
-- [Raspberry Pi 4]()
-- [Dual H Bridge]()
-- [2 Encoders]()
-- [2 Wheels]()
-- [Brackets for the wheels]()
-- [Power Cord]()
+- [9DoF IMU](https://www.sparkfun.com/products/13944)
+- [Raspberry Pi 4](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/)
+- [Dual H Bridge](https://www.sparkfun.com/products/14450)
+- [2 Motors with Encoders](https://www.pololu.com/product/4822)
+- [2 Wheels](https://www.pololu.com/product/1435)
+- [Mounting Hubs for the Wheels](https://www.pololu.com/product/1081)
+- 9V Power Cord
 - Small breadboard
 - A 3D-printed base (could be substituted with any other materials, including wood, metal, etc.)
 - Super glue
