@@ -36,7 +36,7 @@ Prior knowledge of the following concepts were used:
 - A 3D-printed base (could be substituted with any other materials, including wood, metal, etc.)
 - Super glue
 - Zip ties
-- Wires<br/>
+- Wires<br/><br/>
 
 2. Assemble the base whether by 3D printing or building one. Our base was two 8in x 3in x 1/2in parts connected by four 4in rods.
 
@@ -61,8 +61,10 @@ Prior knowledge of the following concepts were used:
 6. Connect power to the Pi with the cord that comes with it and power to the breadboard with the 9V power cord, stepped down to 6V using resistors and a [voltage divider](https://learn.sparkfun.com/tutorials/voltage-dividers/all).
 
 7. Once all of the components are in place, launch the Pi, navigate to the folder where your code is stored and run it using the following commands, where XXX should be the XXX values.<br/>
-`make`
-`./final XXX`
+```markdown
+make
+./final XXX
+```
 
 8. Watch the **4180Balancer** do its job!
 
