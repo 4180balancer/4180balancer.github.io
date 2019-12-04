@@ -7,7 +7,7 @@ Below is a description of a balancing robot designed for ECE 4180 at Georgia Tec
 
 <p align="center">
   <img width="460" height="300" src=""><br/>
-  **Image of Bot**
+  <b>Image of Bot</b>
 </p>
 
 The general idea of this project was to design a mobile robot with a tall base that adjusts its wheel speeds to stay upright. With major changes in parts used, complexity of design, and how the motors are driven, it was inspired by Mark William's [Success with a Balancing Robot using a Raspberry Pi](http://ozzmaker.com/success-with-a-balancing-robot-using-a-raspberry-pi/). Our design incorporated learnings and parts from previous labs within 4180 itself, such as the use of a dual H bridge motor driver, IMU, and a Raspberry Pi, as well as new concepts developed in Mark William's project, including work with a PID controller and encoders. The combination of these efforts led to what we call the **4180Balancer**.
