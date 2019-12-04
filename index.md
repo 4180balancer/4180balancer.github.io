@@ -6,7 +6,7 @@ Below is a description of a balancing robot designed for ECE 4180 at Georgia Tec
 ## Project Idea
 
 <p align="center">
-  <img width="460" height="300" src="https://raw.githubusercontent.com/4180balancer/4180balancer.github.io/master/full.jpg"><br/>
+  <img width="460" height="460" src="https://raw.githubusercontent.com/4180balancer/4180balancer.github.io/master/full.jpg"><br/>
   <b>Image of Bot</b>
 </p>
 
