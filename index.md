@@ -17,9 +17,9 @@ The general idea of this project was to design a mobile robot with a tall base t
 Prior knowledge of the following concepts were used:
 - Controls
 - C++
-- Raspberry Pi
+- Raspberry Pi<br/><br/>
 
-1. To begin, acquire the following components and materials:<br/>
+1. To begin, acquire the following components and materials:
 - [9DoF IMU](https://www.sparkfun.com/products/13944)
 - [Raspberry Pi 4](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/)
 - [Dual H Bridge](https://www.sparkfun.com/products/14450)
