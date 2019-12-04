@@ -14,7 +14,7 @@ The general idea of this project was to design a mobile robot with a tall base t
 
 <p align="center">
   <img width="460" height="300" src=""><br/>
-  **Video Demo**
+  <b>Video Demo</b>
 </p>
 
 ## Instructions & Hardware Setup
@@ -47,45 +47,48 @@ Prior knowledge of the following concepts were used:
 5. With the Pi fully loaded, place components on the base starting with assembling the Motors, Mounting Hubs and Wheels, which go underneath the base, connecting the IMU, H Bridge and Pi to the breadboard, which will go on the top platform, and putting the Pi on the lower platform.<br/>
 <p align="center">
   <img width="460" height="300" src=""><br/>
-  *Under the Bottom Platform*
+  <i>Under the Bottom Platform</i>
 </p>
 <p align="center">
   <img width="460" height="300" src=""><br/>
-  *On top of the Bottom Platform*
+  <i>On top of the Bottom Platform</i>
 </p>
 <p align="center">
   <img width="460" height="300" src=""><br/>
-  *On top of the Top Platform*
+  <i>On top of the Top Platform</i>
 </p>
 
 6. Connect power to the Pi with the cord that comes with it and power to the breadboard with the 9V power cord, stepped down to 6V using resistors and a [voltage divider](https://learn.sparkfun.com/tutorials/voltage-dividers/all).
 
-7. Once all of the components are in place, launch the Pi, navigate to the folder where your code is stored and run the make
+7. Once all of the components are in place, launch the Pi, navigate to the folder where your code is stored and run it using the following commands, where XXX should be the XXX values.<br/>
+`make`
+`./final XXX`
+
+8. Watch the **4180Balancer** do its job!
 
 ## Code
 
-file.cpp
+Makefile
 ```markdown
 xxx
 ```
 
-To Include:
-Photos and videos (specifically longer videos)
+main.cpp
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+xxx
 ```
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+encoders.h
+```markdown
+xxx
+```
+
+GPIOpinsMotorConstroller.h
+```markdown
+xxx
+```
+
+pins.h
+```markdown
+xxx
+```
