@@ -6,7 +6,7 @@ Use the following sections to view or recreate our project.
 
 ## Project Idea
 
-xxx
+This project was inspired by Mark William's [Success with a Balancing Robot using a Raspberry Pi](http://ozzmaker.com/success-with-a-balancing-robot-using-a-raspberry-pi/) with major changes in parts, complexity, and how our motors are driven. The general idea is to design a mobile robot with a tall base that will adjust its wheel speeds to stay upright. In our version of the project we decided to
 
 ## Instructions
 
