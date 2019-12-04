@@ -2,7 +2,6 @@
 `Created by John Lee, Nyle Malik, and Austin Lowe`
 
 Below is a description of a balancing robot designed for ECE 4180 at Georgia Tech.
-Use the following sections to view or recreate our project.
 
 ## Project Idea
 
@@ -12,7 +11,7 @@ The general idea of this project was to design a mobile robot with a tall base t
 
 **Video Demo**
 
-## Instructions
+## Instructions & Hardware Setup
 
 Prior knowledge of the following concepts were used:
 - Controls
@@ -31,15 +30,18 @@ Prior knowledge of the following concepts were used:
 - A 3D-printed base (could be substituted with any other materials, including wood, metal, etc.)
 - Super glue
 - Zip ties
-- Wires
+- Wires<br/>
 
-2. Assemble the base whether by 3D printing or building one. Our base was two 8in x 3in x 1/2in parts connected by 4 4in rods.
+2. Assemble the base whether by 3D printing or building one. Our base was two 8in x 3in x 1/2in parts connected by four 4in rods.
 
-3. Ensure that the [Rasberry Pi is set up](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/6) with a proper operating system; we used NOOBS to do so.
+3. [Setup the Rasberry Pi is set up](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/6).
 
 4. Once the Pi is set up, copy our code in the section below onto it using Filezilla or another similar process. 
 
-5. With the Pi fully loaded, begin assembling the 4180Balancer by plancing components on the base starting with assembling the Motors, Mounting Hubs and Wheels, which go underneath the base, connecting the IMU, H Bridge and Pi to the breadboard, which will go on the top platform, and putting the Pi on the lower platform.
+5. With the Pi fully loaded, place components on the base starting with assembling the Motors, Mounting Hubs and Wheels, which go underneath the base, connecting the IMU, H Bridge and Pi to the breadboard, which will go on the top platform, and putting the Pi on the lower platform.
+| Under the Bottom Platform  | On top of the Bottom Platform | On top of the Top Platform |
+| ------------- | ------------- | ------------- |
+| Content Cell  | Content Cell  | Content Cell  |
 
 6. Connect power to the Pi with the cord that comes with it and power to the breadboard with the 9V power cord, stepped down to 6V using resistors and a [voltage divider](https://learn.sparkfun.com/tutorials/voltage-dividers/all).
 
@@ -51,10 +53,6 @@ file.cpp
 ```markdown
 xxx
 ```
-
-## Hardware Setups
-
-xxx
 
 To Include:
 Photos and videos (specifically longer videos)
