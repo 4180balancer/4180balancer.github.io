@@ -6,11 +6,32 @@ Use the following sections to view or recreate our project.
 
 ## Project Idea
 
-This project was inspired by Mark William's [Success with a Balancing Robot using a Raspberry Pi](http://ozzmaker.com/success-with-a-balancing-robot-using-a-raspberry-pi/) with major changes in parts, complexity, and how our motors are driven. The general idea is to design a mobile robot with a tall base that will adjust its wheel speeds to stay upright. In our version of the project we decided to
+This project was inspired by Mark William's [Success with a Balancing Robot using a Raspberry Pi](http://ozzmaker.com/success-with-a-balancing-robot-using-a-raspberry-pi/) with major changes in parts used, complexity of design, and how the motors are driven. The general idea was to design a mobile robot with a tall base that will adjust its wheel speeds to stay upright. Our design incorporated learnings and parts from previous labs within 4180 itself, such as the use of a dual H bridge motor driver, IMU, and a Raspberry Pi, as well as new concepts developed in Mark William's project, including work with a PID controller and encoders. The combination of effort led to what we call the 4180Balancer.
+
+**Video**
 
 ## Instructions
 
-xxx
+Prior knowledge of the following concepts was used:
+- Controls
+- C++
+- Raspberry Pi
+
+1. To begin, acquire the following components and materials:
+- [IMU]()
+- [Raspberry Pi 4]()
+- [Dual H Bridge]()
+- [2 Encoders]()
+- [2 Wheels]()
+- [Brackets for the wheels]()
+- [Power Cord]()
+- Small breadboard
+- A 3D-printed base (could be substituted with any other materials, including wood, metal, etc.)
+- Super glue
+- Zip ties
+- Wires
+
+2. Assemble the base
 
 ## Code
 
