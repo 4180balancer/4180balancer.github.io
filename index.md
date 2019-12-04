@@ -6,7 +6,7 @@ Below is a description of a balancing robot designed for ECE 4180 at Georgia Tec
 ## Project Idea
 
 <p align="center">
-  <img width="460" height="300" src=""><br/>
+  <img width="460" height="300" src="https://raw.githubusercontent.com/4180balancer/4180balancer.github.io/master/full.jpg"><br/>
   <b>Image of Bot</b>
 </p>
 
@@ -17,7 +17,7 @@ The general idea of this project was to design a mobile robot with a tall base t
   <b>Video Demo</b>
 </p>
 
-## Instructions & Hardware Setup
+## Instructions
 
 Prior knowledge of the following concepts were used:
 - Controls
@@ -46,15 +46,15 @@ Prior knowledge of the following concepts were used:
 
 5. With the Pi fully loaded, place components on the base starting with assembling the Motors, Mounting Hubs and Wheels, which go underneath the base, connecting the IMU, H Bridge and Pi to the breadboard, which will go on the top platform, and putting the Pi on the lower platform.<br/>
 <p align="center">
-  <img width="460" height="300" src=""><br/>
+  <img width="460" height="300" src="https://raw.githubusercontent.com/4180balancer/4180balancer.github.io/master/bottom.jpg"><br/>
   <i>Under the Bottom Platform</i>
 </p>
 <p align="center">
-  <img width="460" height="300" src=""><br/>
+  <img width="460" height="300" src="https://raw.githubusercontent.com/4180balancer/4180balancer.github.io/master/lower.jpg"><br/>
   <i>On top of the Bottom Platform</i>
 </p>
 <p align="center">
-  <img width="460" height="300" src=""><br/>
+  <img width="460" height="300" src="https://raw.githubusercontent.com/4180balancer/4180balancer.github.io/master/top.jpg"><br/>
   <i>On top of the Top Platform</i>
 </p>
 
@@ -94,3 +94,7 @@ pins.h
 ```markdown
 xxx
 ```
+
+## Hardware Setups
+
+XXX
