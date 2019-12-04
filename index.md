@@ -13,7 +13,7 @@ Below is a description of a balancing robot designed for ECE 4180 at Georgia Tec
 The general idea of this project was to design a mobile robot with a tall base that adjusts its wheel speeds to stay upright. With major changes in parts used, complexity of design, and how the motors are driven, it was inspired by Mark William's [Success with a Balancing Robot using a Raspberry Pi](http://ozzmaker.com/success-with-a-balancing-robot-using-a-raspberry-pi/). Our design incorporated learnings and parts from previous labs within 4180 itself, such as the use of a dual H bridge motor driver, IMU, and a Raspberry Pi, as well as new concepts developed in Mark William's project, including work with a PID controller and encoders. The combination of these efforts led to what we call the **4180Balancer**.
 
 <p align="center">
-  <img width="460" height="300" src=""><br/>
+  <img width="460" height="460" src=""><br/>
   <b>Video Demo</b>
 </p>
 
@@ -46,15 +46,15 @@ Prior knowledge of the following concepts were used:
 
 5. With the Pi fully loaded, place components on the base starting with assembling the Motors, Mounting Hubs and Wheels, which go underneath the base, connecting the IMU, H Bridge and Pi to the breadboard, which will go on the top platform, and putting the Pi on the lower platform.<br/>
 <p align="center">
-  <img width="460" height="300" src="https://raw.githubusercontent.com/4180balancer/4180balancer.github.io/master/bottom.jpg"><br/>
+  <img width="460" height="460" src="https://raw.githubusercontent.com/4180balancer/4180balancer.github.io/master/bottom.jpg"><br/>
   <i>Under the Bottom Platform</i>
 </p>
 <p align="center">
-  <img width="460" height="300" src="https://raw.githubusercontent.com/4180balancer/4180balancer.github.io/master/lower.jpg"><br/>
+  <img width="460" height="460" src="https://raw.githubusercontent.com/4180balancer/4180balancer.github.io/master/lower.jpg"><br/>
   <i>On top of the Bottom Platform</i>
 </p>
 <p align="center">
-  <img width="460" height="300" src="https://raw.githubusercontent.com/4180balancer/4180balancer.github.io/master/top.jpg"><br/>
+  <img width="460" height="460" src="https://raw.githubusercontent.com/4180balancer/4180balancer.github.io/master/top.jpg"><br/>
   <i>On top of the Top Platform</i>
 </p>
 
