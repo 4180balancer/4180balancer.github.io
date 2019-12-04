@@ -6,9 +6,9 @@ Use the following sections to view or recreate our project.
 
 ## Project Idea
 
-**Image of Bot*
+**Image of Bot**
 
-The general idea of this project was to design a mobile robot with a tall base that adjusts its wheel speeds to stay upright. With major changes in parts used, complexity of design, and how the motors are driven, it was inspired by Mark William's [Success with a Balancing Robot using a Raspberry Pi](http://ozzmaker.com/success-with-a-balancing-robot-using-a-raspberry-pi/). Our design incorporated learnings and parts from previous labs within 4180 itself, such as the use of a dual H bridge motor driver, IMU, and a Raspberry Pi, as well as new concepts developed in Mark William's project, including work with a PID controller and encoders. The combination of efforts led to what we call the **4180Balancer**.
+The general idea of this project was to design a mobile robot with a tall base that adjusts its wheel speeds to stay upright. With major changes in parts used, complexity of design, and how the motors are driven, it was inspired by Mark William's [Success with a Balancing Robot using a Raspberry Pi](http://ozzmaker.com/success-with-a-balancing-robot-using-a-raspberry-pi/). Our design incorporated learnings and parts from previous labs within 4180 itself, such as the use of a dual H bridge motor driver, IMU, and a Raspberry Pi, as well as new concepts developed in Mark William's project, including work with a PID controller and encoders. The combination of these efforts led to what we call the **4180Balancer**.
 
 **Video Demo**
 
@@ -19,7 +19,7 @@ Prior knowledge of the following concepts were used:
 - C++
 - Raspberry Pi
 
-1. To begin, acquire the following components and materials:
+1. To begin, acquire the following components and materials:<br/>
 - [9DoF IMU](https://www.sparkfun.com/products/13944)
 - [Raspberry Pi 4](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/)
 - [Dual H Bridge](https://www.sparkfun.com/products/14450)
@@ -33,7 +33,17 @@ Prior knowledge of the following concepts were used:
 - Zip ties
 - Wires
 
-2. Assemble the base
+2. Assemble the base whether by 3D printing or building one. Our base was two 8in x 3in x 1/2in parts connected by 4 4in rods.
+
+3. Ensure that the [Rasberry Pi is set up](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/6) with a proper operating system; we used NOOBS to do so.
+
+4. Once the Pi is set up, copy our code in the section below onto it using Filezilla or another similar process. 
+
+5. With the Pi fully loaded, begin assembling the 4180Balancer by plancing components on the base starting with assembling the Motors, Mounting Hubs and Wheels, which go underneath the base, connecting the IMU, H Bridge and Pi to the breadboard, which will go on the top platform, and putting the Pi on the lower platform.
+
+6. Connect power to the Pi with the cord that comes with it and power to the breadboard with the 9V power cord, stepped down to 6V using resistors and a [voltage divider](https://learn.sparkfun.com/tutorials/voltage-dividers/all).
+
+7. Once all of the components are in place, launch the Pi, navigate to the folder where your code is stored and run the make
 
 ## Code
 
