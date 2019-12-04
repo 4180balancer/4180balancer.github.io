@@ -40,7 +40,7 @@ Prior knowledge of the following concepts were used:
 
 2. Assemble the base whether by 3D printing or building one. Our base was two 8in x 3in x 1/2in parts connected by four 4in rods.
 
-3. [Setup the Rasberry Pi.](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/6).
+3. [Setup the Rasberry Pi.](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/6)
 
 4. Once the Pi is set up, copy our code in the section below onto it using Filezilla or another similar process. 
 
