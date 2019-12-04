@@ -38,7 +38,7 @@ Prior knowledge of the following concepts were used:
 
 4. Once the Pi is set up, copy our code in the section below onto it using Filezilla or another similar process. 
 
-5. With the Pi fully loaded, place components on the base starting with assembling the Motors, Mounting Hubs and Wheels, which go underneath the base, connecting the IMU, H Bridge and Pi to the breadboard, which will go on the top platform, and putting the Pi on the lower platform.
+5. With the Pi fully loaded, place components on the base starting with assembling the Motors, Mounting Hubs and Wheels, which go underneath the base, connecting the IMU, H Bridge and Pi to the breadboard, which will go on the top platform, and putting the Pi on the lower platform.<br/>
 | Under the Bottom Platform  | On top of the Bottom Platform | On top of the Top Platform |
 | :---         |     :---:      |          ---: |
 | Content Cell  | Content Cell  | Content Cell  |
