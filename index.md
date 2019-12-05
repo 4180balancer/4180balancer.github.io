@@ -19,12 +19,12 @@ First, the gyro should determine the speed of rotation in degrees per second. Th
 
 Next, we can compute the accelerometer angle by taking the raw accelerometer Y and Z values and using *Atan2* to determine the X angle. This number should be added to pi and then converted from radians to degrees. As a result, save this value as the AccXangle, the acceleration of the X angle.<br/><br/>
 
-Finally, we need to add our filter. Two main ones you could use are the Kalman Filter or the Complementary Filter, but we went with the Complementary Filter because it is simpler to understand and less harsh on your CPU. With our resulting degrees from the previous part, run the following equation to get a final angle that will be used to balance the 4180Balancer.<br/><br/>
+Finally, we need to add our filter. Two main ones you could use are the Kalman Filter or the Complementary Filter, but we went with the Complementary Filter because it is simpler to understand and less harsh on your CPU. With our resulting degrees from the previous part, run the following equation to get a final angle that will be used to balance the 4180Balancer.<br/>
 
 ```markdown
 CFangleX = 0.98*(CFangleX + gyroXangle) + 0.02 * AccXangle
 ```
-
+<br/>
 ### Demo of 4180Balancer
 <p align="center">
   <img width="300" height="300" src=""><br/>
