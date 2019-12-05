@@ -11,6 +11,8 @@ The general idea of this project was to design a mobile robot with a tall base t
   <img width="300" height="300" src="https://raw.githubusercontent.com/4180balancer/4180balancer.github.io/master/all.jpg"><br/>
 </p>
 
+### PID Explained
+
 One of the main difficults of this project was dealing with PID, Proportional Integral Derivative. PID is a control algorithm that keeps the robot stable and balanced by ensuring that the center of gravity is always inline, above the wheels. The main features in our PID are acceleration and gyro, measured by the IMU as it moves around.<br/><br/>
 
 First, the gyro should determine the speed of rotation in degrees per second. This number will be found by multiplying by a constant value depending on the sensitivity of a particular gyro by the raw data from the x-axis. Once this speed of rotation is found, multiply it by the time it takes to complete one cycle of the main loop, and save this number as gyroXangle, the current X angle determined by the gyro.<br/><br/>
@@ -22,8 +24,8 @@ Finally, we need to add our filter. Two main ones you could use are the Kalman F
 ```markdown
 CFangleX = 0.98*(CFangleX + gyroXangle) + 0.02 * AccXangle
 ```
-<br/><br/>
 
+### Demo of 4180Balancer
 <p align="center">
   <img width="300" height="300" src=""><br/>
 </p>
