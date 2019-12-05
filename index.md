@@ -5,18 +5,27 @@ Below is a description of a balancing robot designed for ECE 4180 at Georgia Tec
 
 ## Project Idea
 
+The general idea of this project was to design a mobile robot with a tall base that adjusts its wheel speeds to stay upright. With major changes in parts used, complexity of design, and how the motors are driven, it was inspired by Mark William's [Success with a Balancing Robot using a Raspberry Pi](http://ozzmaker.com/success-with-a-balancing-robot-using-a-raspberry-pi/). Our design incorporated learnings and parts from previous labs within 4180 itself, such as the use of a dual H bridge motor driver, IMU, and a Raspberry Pi, as well as new concepts developed in Mark William's project, including work with a PID controller and encoders. The combination of these efforts led to what we call the **4180Balancer**.<br/><br/>
+
 <p align="center">
-  <img width="460" height="460" src="https://raw.githubusercontent.com/4180balancer/4180balancer.github.io/master/all.jpg"><br/>
-  <b>Image of Bot</b>
+  <img width="300" height="300" src="https://raw.githubusercontent.com/4180balancer/4180balancer.github.io/master/all.jpg"><br/>
 </p>
 
-The general idea of this project was to design a mobile robot with a tall base that adjusts its wheel speeds to stay upright. With major changes in parts used, complexity of design, and how the motors are driven, it was inspired by Mark William's [Success with a Balancing Robot using a Raspberry Pi](http://ozzmaker.com/success-with-a-balancing-robot-using-a-raspberry-pi/). Our design incorporated learnings and parts from previous labs within 4180 itself, such as the use of a dual H bridge motor driver, IMU, and a Raspberry Pi, as well as new concepts developed in Mark William's project, including work with a PID controller and encoders. The combination of these efforts led to what we call the **4180Balancer**.
+One of the main difficults of this project was dealing with PID, Proportional Integral Derivative. PID is a control algorithm that keeps the robot stable and balanced by ensuring that the center of gravity is always inline, above the wheels. The main features in our PID are acceleration and gyro, measured by the IMU as it moves around.<br/><br/>
 
-XXX PID alorithms XXX
+First, the gyro should determine the speed of rotation in degrees per second. This number will be found by multiplying by a constant value depending on the sensitivity of a particular gyro by the raw data from the x-axis. Once this speed of rotation is found, multiply it by the time it takes to complete one cycle of the main loop, and save this number as gyroXangle, the current X angle determined by the gyro.<br/><br/>
+
+Next, we can compute the accelerometer angle by taking the raw accelerometer Y and Z values and using *Atan2* to determine the X angle. This number should be added to pi and then converted from radians to degrees. As a result, save this value as the AccXangle, the acceleration of the X angle.<br/><br/>
+
+Finally, we need to add our filter. Two main ones you could use are the Kalman Filter or the Complementary Filter, but we went with the Complementary Filter because it is simpler to understand and less harsh on your CPU. With our resulting degrees from the previous part, run the following equation to get a final angle that will be used to balance the 4180Balancer.<br/><br/>
+
+```markdown
+CFangleX = 0.98*(CFangleX + gyroXangle) + 0.02 * AccXangle
+```
+<br/><br/>
 
 <p align="center">
-  <img width="460" height="460" src=""><br/>
-  <b>Video Demo</b>
+  <img width="300" height="300" src=""><br/>
 </p>
 
 ## Instructions
@@ -48,15 +57,15 @@ Prior knowledge of the following concepts were used:
 
 5. With the Pi fully loaded, place components on the base starting with assembling the Motors, Mounting Hubs and Wheels, which go underneath the base, connecting the IMU, H Bridge and Pi to the breadboard, which will go on the top platform, and putting the Pi on the lower platform.<br/>
 <p align="center">
-  <img width="460" height="460" src="https://raw.githubusercontent.com/4180balancer/4180balancer.github.io/master/bottom.jpg"><br/>
+  <img width="300" height="300" src="https://raw.githubusercontent.com/4180balancer/4180balancer.github.io/master/bottom.jpg"><br/>
   <i>Under the Bottom Platform</i>
 </p>
 <p align="center">
-  <img width="460" height="460" src="https://raw.githubusercontent.com/4180balancer/4180balancer.github.io/master/lower.jpg"><br/>
+  <img width="300" height="300" src="https://raw.githubusercontent.com/4180balancer/4180balancer.github.io/master/lower.jpg"><br/>
   <i>On top of the Bottom Platform</i>
 </p>
 <p align="center">
-  <img width="460" height="460" src="https://raw.githubusercontent.com/4180balancer/4180balancer.github.io/master/top.jpg"><br/>
+  <img width="300" height="300" src="https://raw.githubusercontent.com/4180balancer/4180balancer.github.io/master/top.jpg"><br/>
   <i>On top of the Top Platform</i>
 </p>
 
