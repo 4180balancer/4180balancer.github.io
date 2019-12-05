@@ -25,6 +25,7 @@ Finally, we need to add our filter. Two main ones you could use are the Kalman F
 CFangleX = 0.98*(CFangleX + gyroXangle) + 0.02 * AccXangle
 ```
 <br/>
+
 ### Demo of 4180Balancer
 <p align="center">
   <img width="300" height="300" src=""><br/>
